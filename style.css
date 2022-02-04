@@ -16,6 +16,7 @@
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
+    background-color: purple;
   }
   
   #headshot {
@@ -45,7 +46,7 @@
   }
   
   .jobtitle1 {
-    color: red;
+    color: purple;
     display: inline;
   }
 
