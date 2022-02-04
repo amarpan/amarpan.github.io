@@ -22,7 +22,7 @@
     max-width: 100%;
     margin: 60px;
     padding: 30px;
-    border-radius: 50%;
+    border-radius: 20%;
   }
   
   #elevator-speech {
@@ -44,8 +44,14 @@
     text-align: left;
   }
   
-  #position {
-    color: blue;
+  .jobtitle1 {
+    color: red;
+    display: inline;
+  }
+
+  .jobtitle2 {
+    color: black;
+    display: inline;
   }
   
   .button {
