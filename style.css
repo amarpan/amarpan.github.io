@@ -21,24 +21,43 @@
   }
   
   #headshot {
-    max-width: 100%;
+    width: 30%;
+    height: 100%;
+    /* max-width: 30%;
     margin: 60px;
     padding: 30px;
     border-radius: 20%;
-  }
+    height: auto; */
+
+    text-align:right;
   
-  #elevator-speech {
-    margin: 30px;
-    padding: 30px;
   }
-  
+
   #intro {
-    display: flex;
-    flex-direction: row-reverse;
+    height: 30vw;
+    border: solid 5px red;
+    text-align: right;
+    ;
   }
+
+  #me {
+    border: solid 10px red;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  #aboutme {
+    display: inline-block;
+    margin: 0 auto;
+    padding-block-end: 100px;
+  }
+
+
   
   .name {
     font-weight: bold;
+    display: inline-flex;
+    
   }
   
   #textbox1 {
@@ -70,6 +89,7 @@
     border: 20px;
     padding: 20px;
     text-align: center;
+    width: ;
   }
 
   .oldlace {
@@ -146,8 +166,9 @@
     -moz-column-gap: 20px;
     -webkit-column-count: 4;
     -webkit-column-gap: 20px;
-    column-count: 5;
+    column-count: 3;
     column-gap: 20px;
+    font-size: 1vw;
   }
   
   .cert-list {
@@ -167,10 +188,11 @@
   }
   
   .contact {
-    background-color: white;
+    background-color: purple;
     border: 20px;
     padding: 20px;
     text-align: center;
+    color: white;
   }
   
   .fa {
