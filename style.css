@@ -20,44 +20,33 @@
     color: red;
   }
   
-  #headshot {
-    width: 30%;
-    height: 100%;
-    /* max-width: 30%;
-    margin: 60px;
-    padding: 30px;
-    border-radius: 20%;
-    height: auto; */
-
-    text-align:right;
-  
+  .aboutme {
+    background-color: oldlace;
+    height: 30vh;
   }
-
-  #intro {
-    height: 30vw;
-    border: solid 5px red;
-    text-align: right;
-    ;
-  }
-
-  #me {
-    border: solid 10px red;
-    display: inline-block;
-    margin: 0 auto;
-  }
-
-  #aboutme {
-    display: inline-block;
-    margin: 0 auto;
-    padding-block-end: 100px;
-  }
-
 
   
-  .name {
+  #name {
     font-weight: bold;
-    display: inline-flex;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 0;
     
+  }
+
+  #headshot {
+    height: 100%;
+    display: inline-flex;
+    float: left;
+    margin-left: 300px;
+    border-radius: 0;
+  }
+
+  #title {
+    display: inline-flex;
+    margin-left: 280px;
+
   }
   
   #textbox1 {
