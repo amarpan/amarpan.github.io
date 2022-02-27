@@ -41,16 +41,19 @@
   }
 
   #headshot {
-    height: 100%;
-    display: inline-flex;
-    float: left;
-    margin-left: 325px;
+    height: 50%;
+    width: 80%;
+    /* margin-left: 325px; */
     border-radius: 0;
   }
 
   #title {
-    display: inline-flex;
-    margin-left: 302px;
+    text-align: center;
+    /* margin-left: 302px; */
+
+  }
+
+  #about {
 
   }
   
@@ -182,7 +185,16 @@
   }
   
   .contact {
+    background-color: hotpink;
+    border: 20px;
+    padding: 20px;
+    text-align: center;
+    color: pink;
+  }
+
+  .testimonials {
     background-color: purple;
+    height: 50vh;
     border: 20px;
     padding: 20px;
     text-align: center;

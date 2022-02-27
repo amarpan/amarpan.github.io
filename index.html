@@ -19,6 +19,16 @@
   </head>
   <body>
     <header>
+      
+
+        
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#webdev">one</a></li>
+        <li><a href="#webdev">Web Dev Projects</a></li>
+        <li class="divider"></li>
+        <li><a href="#writing">Writing Samples</a></li>
+      </ul>
+      <div class="nav-wrapper">
       <div class="navbar-fixed">
       <nav class="purple">
         <!-- <div class="nav-wrapper"> -->
@@ -27,7 +37,8 @@
         <ul class="left hide-on-med-and-down">
           <li><a href="#aboutme">About Me</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#webdev">Portfolio</a></li>
+          <li><a href="#webdev">Web Dev Portfolio</a></li>
+          <li><a href="#writing">Writing Portfolio</a></li>
           <!-- <li><a href="#writing">Writing Portfolio</a></li> -->
           <li><a href="#testimonials">Testimonials</a></li>
           <!-- <li><a href="#education">Education</a></li> -->
@@ -39,9 +50,13 @@
             >
           </li>
           <li><a href="#contact">Contact</a></li>
+          <!-- <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li> -->
+          
         </ul>
-      </div>
+      
       </nav>
+      </div>
+      </div>
 
 
       <ul class="sidenav" id="mobile-demo">
@@ -68,24 +83,43 @@
         var sidenav = M.Sidenav.init(elems);
         console.log("This is the sidenav!", elems)
       });
+      document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, options);
+  });
+
+ 
       </script>
 
       </div>
     </header>
     <main>
+      <div class="container">
       <section id="aboutme">
         <!-- <h1 id="name">Amar Panjwani</h3> -->
-        <img id="headshot" src="./images/self/wedding_headshot.png"><br>
-        <h5 id="title">Technical Writer | Front-End Web Developer </h6>
+          <div class="row">
+       <div class="col s12">
+        <h5 id="title" class="col s12">Front-End Web Developer | Technical Writer | Teacher </h5><br>
+        </div>
+        <div class="col s6">
+          <img id="headshot" class="" src="./images/self/wedding_headshot.png">
+        </div>
+        <div class="col s6">
+          <p id="about" class="col s6">Hi, I'm a California-based... </p>
 
+        </div>
+        </div>
+         
+         
       </section>
+      </div>
           
           
         </div>
 
         <section id="webdev">
           <div class="projects">
-            <h1 class="oldlace">Web Development Projects</h1>
+            <h1 class="oldlace">Web Development</h1>
             <div class="container">
               <a href="https://github.com/amarpan/simon-memory-game">
                 <div class="card-projects">
@@ -149,6 +183,7 @@
           </div>
         
         <section id='skills'>
+          <div class="container">
           <div class="skills">
             <h1>Skills</h1>
             <ul class="skills-list">
@@ -179,17 +214,28 @@
               <li><h5>VS Code</h5></li>
             </ul>
           </div>
+          </div>
+
+          <section id="testimonials">
+            <div class="testimonials">
+              <h1>Testimonials</h1>
+
+            </div>
+          </section>
 
           <section id="contact">
+            
             <div class="contact">
               <h1 class="oldlace">Contact</h1>
-              <h4 class="oldlace">amar.panjwani@gmail.com</h4>
+              <h4 class="oldlace">(951) 224-7077</h4>
+              <h4 class="oldlace">amarpan.us@gmail.com</h4>
               <br>
               <a href="https://www.linkedin.com/in/amarpan/" class="fa fa-linkedin"></a>
               <a href="https://github.com/amarpan" class="fa fa-github"></a>
-              <a href="mailto:amar.panjwani@gmail.com" class="fa fa-envelope"></a>
-              <a href="Amar_Technical Writer_Resume.pdf" download='Amar_Technical Writer_Resume.pdf' class="fa fa-download"></a>
+              <a href="mailto:amarpan.us@gmail.com" class="fa fa-envelope"></a>
+              <a href="Amar Panjwani_Technical Writer_Resume.pdf" download='Amar Panjwani_Technical Writer_Resume.pdf' class="fa fa-download"></a>
             </div>
+                        
     </main>
   </body>
 </html>
