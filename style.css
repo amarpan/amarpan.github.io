@@ -19,6 +19,10 @@
     background-color: purple;
     color: red;
   }
+
+  #navbar-fixed {
+    position: fixed;
+  }
   
   .aboutme {
     background-color: oldlace;
