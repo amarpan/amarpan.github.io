@@ -11,7 +11,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow:hidden;
     /* background-color; */
     position: -webkit-sticky; 
     position: sticky;
@@ -22,7 +22,7 @@
   
   .aboutme {
     background-color: oldlace;
-    height: 30vh;
+    height: 50vh;
   }
 
   
@@ -30,8 +30,9 @@
     font-weight: bold;
     display: inline-block;
     margin-top: 40px;
-    margin-left: 300px;
+    margin-left: 325px;
     margin-bottom: 0;
+    margin-right: 0px;
     
   }
 
@@ -39,13 +40,13 @@
     height: 100%;
     display: inline-flex;
     float: left;
-    margin-left: 300px;
+    margin-left: 325px;
     border-radius: 0;
   }
 
   #title {
     display: inline-flex;
-    margin-left: 280px;
+    margin-left: 302px;
 
   }
   
