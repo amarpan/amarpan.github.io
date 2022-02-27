@@ -21,10 +21,11 @@
     <header>
       <div class="navbar-fixed">
       <nav class="purple">
-        <div class="nav-wrapper">
-          <a href="#" class="left brand-logo">Amar Panjwani</a>
-        <ul id="nav-mobile" class="right hide-on-down">
-          <li><a href="#about_me">About Me</a></li>
+        <!-- <div class="nav-wrapper"> -->
+          <a href="#" class="right brand-logo">Amar Panjwani</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="#aboutme">About Me</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#webdev">Portfolio</a></li>
           <!-- <li><a href="#writing">Writing Portfolio</a></li> -->
@@ -41,10 +42,38 @@
         </ul>
       </div>
       </nav>
+
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#webdev">Portfolio</a></li>
+          <!-- <li><a href="#writing">Writing Portfolio</a></li> -->
+          <li><a href="#testimonials">Testimonials</a></li>
+          <!-- <li><a href="#education">Education</a></li> -->
+          <li>
+            <a
+              href="./files/Amar Panjwani_Technical Writer_Resume.pdf"
+              download="Amar Panjwani_Technical Writer_Resume"
+              >Resume</a
+            >
+          </li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script language="javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var sidenav = M.Sidenav.init(elems);
+        console.log("This is the sidenav!", elems)
+      });
+      </script>
+
       </div>
     </header>
     <main>
-      <section class="aboutme">
+      <section id="aboutme">
         <!-- <h1 id="name">Amar Panjwani</h3> -->
         <img id="headshot" src="./images/self/wedding_headshot.png"><br>
         <h5 id="title">Technical Writer | Front-End Web Developer </h6>
