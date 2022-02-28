@@ -40,11 +40,14 @@
     
   }
 
+  .title {
+    text-align: center;
+  }
+
   #headshot {
-    height: 100%;
-    width: 80%;
-    margin-top: 20px;
-    /* margin-left: 325px; */
+    height: 30vh;
+    width: 300px;
+    margin: 0 auto;
     border-radius: 0
   }
 
