@@ -44,7 +44,7 @@
     text-align: center;
   }
 
-  #headshot {
+  .headshots {
     height: 40px;
     width: 40px;
     margin: 10px auto;
