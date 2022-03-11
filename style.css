@@ -186,11 +186,11 @@
   }
   
   .contact {
-    background-color: hotpink;
+    background-color: oldlace;
     border: 20px;
     padding: 20px;
     text-align: center;
-    color: pink;
+    color: black;
   }
 
   .testimonials {
@@ -202,7 +202,7 @@
     color: white;
   }
   
-  .fa {
+  /* .fa {
     padding: 20px;
     font-size: 20px !important;
     width: 60px;
@@ -214,8 +214,8 @@
   .fa:hover {
     opacity: 0.7;
   }
-  
-  .fa-linkedin {
+   */
+  /* .fa-linkedin {
     background: #007bb5;
     color: white;
   }
@@ -234,7 +234,7 @@
     background: salmon;
     color: black;
   }
-  
+   */
  
   @media screen and (max-width: 1800px) {
   }
