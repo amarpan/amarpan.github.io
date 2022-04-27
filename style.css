@@ -214,6 +214,14 @@
     text-align: center;
     color: white;
   }
+
+  h2 {
+    color: #A519FA;
+  }
+
+  #nav-header {
+    color: oldlace;
+  }
   
   /* .fa {
     padding: 20px;
