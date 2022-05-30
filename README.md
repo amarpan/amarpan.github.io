@@ -1,1 +1,1 @@
-# View my full portfolio at https://amarpan.github.io/portfolio/
+# View my full portfolio at https://profpan396.github.io/portfolio/
