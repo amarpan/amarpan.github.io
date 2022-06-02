@@ -11,6 +11,9 @@
     font: white;
   } */
   
+  #headshot {
+    height: 20rem;
+  }
   #nav-bar {
     list-style-type: none;
     margin: 0;
