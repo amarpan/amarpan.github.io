@@ -29,7 +29,9 @@
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    background-color: purple;
+    background-color: #9c27b0
+
+;
     color: red;
   }
 
@@ -105,7 +107,7 @@
   }
   
   .projects {
-    background-color: purple;
+    background-color: #9c27b0;
     border: 20px;
     padding: 20px;
     text-align: center;
@@ -163,7 +165,7 @@
   }
   
   .tag-purple {
-    background-color: #5e76bf;
+    background-color: #9c27b0;
   }
   
   .tag-pink {
@@ -233,7 +235,9 @@
   }
 
   #purple {
-    color: #9c27b0;
+    color: #9c27b0
+
+    ;
   }
 
 
