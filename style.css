@@ -13,6 +13,7 @@
   
   #headshot {
     height: 20rem;
+    border-radius: 160px;
   }
 
   .rem {
