@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     color: black;
+    
   }
 
   body {
@@ -216,6 +217,11 @@
     padding: 20px;
     text-align: center;
     color: black;
+    /* border: red 5px solid; */
+  }
+
+  .footer {
+    background-color: limegreen;
   }
 
   .testimonials {
