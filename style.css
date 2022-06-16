@@ -21,6 +21,10 @@
     width: 20rem;
   }
 
+  .limegreen {
+    color: limegreen;
+  }
+
 
   #nav-bar {
     list-style-type: none;
