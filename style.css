@@ -225,7 +225,8 @@
   }
 
   .footer {
-    background-color: limegreen;
+    background-color: hotpink;
+    border: #9c27b0 10px solid;
   }
 
   .testimonials {
