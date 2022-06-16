@@ -166,8 +166,20 @@
     cursor: pointer;
   }
   
-  .tag-teal {
-    background-color: #47bcd4;
+  .tag-blue {
+    background-color: blue;
+  }
+
+  .tag-red {
+    background-color: red;
+  }
+
+  .tag-green {
+    background-color: green;
+  }
+
+  .tag-yellow {
+    background-color: coral;
   }
   
   .tag-purple {
@@ -175,7 +187,7 @@
   }
   
   .tag-pink {
-    background-color: #cd5b9f;
+    background-color: hotpink;
   }
   
   .card-body p {
