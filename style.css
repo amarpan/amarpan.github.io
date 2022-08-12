@@ -112,13 +112,22 @@
     text-decoration: none;
   }
   
-  .projects {
+  .projects-purple {
     background-color: #9c27b0;
     border: 20px;
     padding: 20px;
     text-align: center;
     width: ;
   }
+
+  .projects-oldlace {
+    background-color: oldlace;
+    border: 20px;
+    padding: 20px;
+    text-align: center;
+    width: ;
+  }
+
 
   .oldlace {
     color: oldlace;
@@ -228,7 +237,7 @@
   }
   
   .contact {
-    background-color: oldlace;
+    background-color: #9c27b0;
     border: 20px;
     padding: 20px;
     text-align: center;
@@ -258,8 +267,23 @@
     color: oldlace;
   }
 
+  .purple {
+    color: #9c27b0;
+  }
+
+  #oldlace {
+    color: oldlace;
+    border: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
   #purple {
     color: #9c27b0;
+  }
+
+  #oldlace {
+    color: oldlace;
   }
 
 
