@@ -36,9 +36,12 @@
     position: sticky;
     top: 0;
     background-color: #9c27b0
-
-;
+  ;
     color: red;
+  }
+
+  #nav-bar-fixed:hover {
+    color: #00a2e0;
   }
 
 
