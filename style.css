@@ -123,6 +123,10 @@
     width: ;
   }
 
+  #blue {
+    color: #2196f3;
+  }
+
   .projects-oldlace {
     background-color: oldlace;
     border: 20px;
