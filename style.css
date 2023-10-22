@@ -115,8 +115,8 @@
     text-decoration: none;
   }
   
-  .projects-purple {
-    background-color: #9c27b0;
+  .projects-blue {
+    background-color: #2196f3;
     border: 20px;
     padding: 20px;
     text-align: center;
@@ -130,15 +130,6 @@
     text-align: center;
     width: ;
   }
-
-  .projects-blue {
-    background-color: lightblue;
-    border: 20px;
-    padding: 20px;
-    text-align: center;
-    width: ;
-  }
-
 
   .oldlace {
     color: oldlace;
